@@ -1,0 +1,42 @@
+ai:
+  enabled: true
+  base-url: "https://api.deepseek.com/chat/completions"
+  api-key: ""
+  model: "deepseek-flash"
+  reasoning-effort: "high"
+  timeout-seconds: 60
+  retry-on-invalid-json: true
+
+limits:
+  prompt-max-length: 500
+  generations-per-minute: 3
+  max-concurrent-generations: 5
+  max-ai-response-chars: 24000
+  min-cooldown-seconds: 3
+  max-cooldown-seconds: 60
+  max-ability-power: 8.0
+  max-duration-seconds: 20
+  max-radius: 6.0
+  max-recipe-output: 1
+
+resource-pack:
+  enabled: true
+  download-url: ""
+  max-texture-bytes: 1048576
+  texture-size: 16
+
+visual:
+  max-textures-per-item: 8
+  max-animation-frames: 16
+  max-model-cubes: 24
+  pack-version-file: "pack-version.txt"
+
+gemini:
+  enabled: false
+  api-key: ""
+  base-url: "https://generativelanguage.googleapis.com/v1beta/interactions"
+  model: "gemini-3.1-flash-image"
+  timeout-seconds: 90
+  image-size: "1K"
+
+debug: false

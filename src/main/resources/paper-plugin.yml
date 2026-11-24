@@ -1,0 +1,21 @@
+name: AIWorkbench
+version: ${version}
+main: com.aicraft.aiworkbench.AIWorkbenchPlugin
+description: AI-powered custom item workbench for Paper.
+api-version: '1.21'
+author: aicraft
+permissions:
+  aiworkbench.use:
+    default: true
+  aiworkbench.create:
+    default: true
+  aiworkbench.library:
+    default: true
+  aiworkbench.give:
+    default: op
+  aiworkbench.reload:
+    default: op
+  aiworkbench.resourcepack:
+    default: op
+  aiworkbench.admin:
+    default: op
